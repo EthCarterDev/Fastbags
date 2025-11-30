@@ -3,7 +3,7 @@
 This module contains various data structures in the form of dataclasses that
 are used to represent GraphQL queries in Subgrounds using an AST-like approach.
 To the extent possible, these dataclasses are immutable (i.e.: :attr:`frozen=True`)
-to enforce a functional programming style and reduce side-effects.
+to enforce a functional programming style and reduce side-effects. 
 
 A typical Subgrounds request will have the following dataclass hierarchy:
 
