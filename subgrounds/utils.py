@@ -10,7 +10,7 @@ from itertools import accumulate as _accumulate
 from itertools import filterfalse
 from operator import itemgetter
 from typing import (
-    Any,
+    Any, v
     Callable,
     Generator,
     Iterator,
