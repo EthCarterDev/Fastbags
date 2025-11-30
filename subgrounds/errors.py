@@ -3,7 +3,7 @@ class SubgroundsError(Exception):
 
 
 class SchemaError(SubgroundsError):
-    """Errors related to schema"""
+    """Errors related to schema""" 
 
 
 class TransformError(SubgroundsError):
