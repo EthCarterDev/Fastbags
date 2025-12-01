@@ -8,7 +8,7 @@ REM Activate virtual environment
 if exist "%SCRIPT_DIR%.venv\Scripts\activate.bat" (
     call "%SCRIPT_DIR%.venv\Scripts\activate.bat"
 ) else (
-    echo Virtual environment not found. Please run the installation steps in the README.
+    echo Virtual environment not found. Please run the in stallation steps in the README.
     exit /b 1
 )
 
