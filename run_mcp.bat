@@ -4,7 +4,7 @@ setlocal
 REM Get the directory where the script is located
 set "SCRIPT_DIR=%~dp0"
 
-REM Activate virtual environment
+REM Activate virtual environment 
 if exist "%SCRIPT_DIR%.venv\Scripts\activate.bat" (
     call "%SCRIPT_DIR%.venv\Scripts\activate.bat"
 ) else (
