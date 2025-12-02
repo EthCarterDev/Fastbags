@@ -9,7 +9,7 @@ class JsonParser:
     def convert_json_to_python(self, par_json_file):
         """
         this function to convert any json file format to dictionary
-        args: the json file
+        args: the json file 
         return: dictionary contains json file data
         """
         with open(par_json_file) as json_file:
